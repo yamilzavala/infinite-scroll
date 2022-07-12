@@ -35,10 +35,29 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
+.image-container {
+    margin: 10px 30%;    
+}
+
+.image-container img{
+    width: 100%;    
+    margin-top: 5px;
+}
+
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     letter-spacing:2px;
+}
+
+@media screen and (max-width: 600px) {
+    .image-container {
+        margin: 10px ;    
+    }
+
+    h1 {       
+        font-size: 20px;        
+    }
 }
